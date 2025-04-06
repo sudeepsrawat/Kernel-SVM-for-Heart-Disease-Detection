@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Prediction using Kernel SVM
+# ❤️ Kernel SVM Prediction for Heart Disease Detection
 
 This machine learning project utilizes a **Kernelized Support Vector Machine (SVM)** to classify whether a person is likely to have heart disease based on various medical indicators. The model is trained on the [Heart Prediction Dataset](https://www.kaggle.com/datasets/shantanugarg274/heart-prediction-dataset-quantum) from Kaggle.
 
@@ -8,9 +8,9 @@ This machine learning project utilizes a **Kernelized Support Vector Machine (SV
 
 The dataset consists of 7 columns, including:
 
-- `Age`, `Gender`,
-- `BloodPressure`, `Cholesterol`,
-- `HeartRate`, `QuantumPatternFeature`,
+- `Age`, `Gender`
+- `BloodPressure`, `Cholesterol`
+- `HeartRate`, `QuantumPatternFeature`
 - **`HeartDisease`** (1 = heart disease, 0 = no heart disease)
 
 📎 [Link to Dataset](https://www.kaggle.com/datasets/shantanugarg274/heart-prediction-dataset-quantum)
@@ -40,10 +40,20 @@ The Kernel SVM model shows strong capability in separating the classes, making i
 
 ---
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
-### Clone the Repository
-
+#### 📥 Clone the Repository  
 ```bash
-git clone https://github.com/your-username/Heart-Disease-Prediction-Using-Kernel-SVM.git
-cd Heart-Disease-Prediction-Using-Kernel-SVM
+git clone https://github.com/sudeepsrawat/Kernel-SVM-for-Heart-Disease-Detection.git
+cd Kernel-SVM-for-Heart-Disease-Detection
+```
+
+#### 📦 Install Dependencies  
+```bash
+pip install pandas numpy matplotlib scikit-learn
+```
+
+#### 📓 Run the Notebook  
+```bash
+jupyter notebook Classification_Kernel_SVM.ipynb
+```
